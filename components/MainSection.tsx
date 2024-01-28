@@ -4,8 +4,8 @@ import Image from "next/image";
 const MainSection = () => {
   return (
     <section
-      className="relative flex items-center justify-between bg-black text-white mt-8 mb-8 md:mt-10 md:mb-10 max-w-screen-xl mx-auto"
-      style={{ height: "calc(55vh - 50px)", backgroundColor: "transparent" }}
+      className="relative flex items-center justify-between text-white mt-10 mb-20 max-w-screen-xl mx-auto"
+      style={{ backgroundColor: "transparent" }}
     >
       <div className="z-10 w-full md:w-1/3">
         <h1 className="text-7xl font-bold">BCharity Baas</h1>
@@ -28,15 +28,12 @@ const MainSection = () => {
           </Link>
         </div>
       </div>
-      <div
-        className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2"
-        style={{ height: "calc(55vh - 50px)" }}
-      >
+      <div className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/3">
         <Image
           src="/bg-hero.png"
           alt="Background Image"
           layout="fill"
-          objectFit="contain"
+          objectFit="cover"
           quality={100}
         />
       </div>
