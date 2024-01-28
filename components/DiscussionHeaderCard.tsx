@@ -13,9 +13,9 @@ interface DiscussionCardProps {
 
 const DiscussionCard: React.FC<DiscussionCardProps> = ({ imageSrc, title, numberOfComments }) => {
   return (
-    <div className="discussion-card max-w-sm rounded overflow-hidden shadow-lg">
+<div className="discussion-card max-h-full rounded overflow-hidden shadow-lg">
       <div className="relative">
-        <Image src={imageSrc} alt={title} width={1000} height={667} className="w-full h-full object-cover rounded" />
+        <Image src={imageSrc} alt={title} width={1000} height={667} id="discHeaderImg" className="w-48 h-96 object-cover rounded" />
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-end">
           <div className="px-6 py-4 bg-white bg-opacity-0">
             <span className="inline-block bg-purple-700 rounded-full px-3 py-1 text-sm font-semibold text-white mb-2 max-w-full">

@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+#discHeaderImg {
+  width: 100%;
+}
 
 
 
