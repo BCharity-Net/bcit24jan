@@ -1,6 +1,14 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#discHeaderImg {
+  width: 100%;
+}
+
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,4 +39,5 @@ body {
     text-wrap: balance;
   }
 }
- */
+
+
