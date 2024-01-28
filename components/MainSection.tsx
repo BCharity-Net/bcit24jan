@@ -3,9 +3,12 @@ import Image from "next/image";
 
 const MainSection = () => {
   return (
-    <section className="relative flex items-center justify-between bg-black text-white p-8 md:h-screen">
-      <div className="z-10 w-full md:w-1/2">
-        <h1 className="text-5xl font-bold">BCharity Baas</h1>
+    <section
+      className="relative flex items-center justify-between bg-black text-white mt-8 mb-8 md:mt-10 md:mb-10 max-w-screen-xl mx-auto"
+      style={{ height: "calc(55vh - 50px)", backgroundColor: "transparent" }}
+    >
+      <div className="z-10 w-full md:w-1/3">
+        <h1 className="text-7xl font-bold">BCharity Baas</h1>
         <p className="mt-4 mb-6">
           Next generation group-driven composable, decentralized, and
           permissionless public good sector Web3 built on blockchains.
@@ -25,7 +28,10 @@ const MainSection = () => {
           </Link>
         </div>
       </div>
-      <div className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2 h-full">
+      <div
+        className="hidden md:block md:absolute md:inset-y-0 md:right-0 md:w-1/2"
+        style={{ height: "calc(55vh - 50px)" }}
+      >
         <Image
           src="/bg-hero.png"
           alt="Background Image"

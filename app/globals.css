@@ -26,12 +26,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('/Background-line-1.png'), url('/Background-line-2.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  background-size: cover, cover;
+  background-attachment:scroll;
 }
 
 @layer utilities {
@@ -39,5 +38,3 @@ body {
     text-wrap: balance;
   }
 }
-
-
