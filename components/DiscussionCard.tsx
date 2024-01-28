@@ -22,10 +22,10 @@ const DiscussionCard: React.FC<DiscussionCardProps> = ({ imageSrc, title, number
               {numberOfComments === 1 ? `${numberOfComments} Comment` : `${numberOfComments} Comments`}
             </span>
             <div className="flex items-center">
-              <div className="font-bold text-xl mb-2 text-black max-w-full">{title}</div>
+              <div className=" text-xl mb-2 text-white max-w-full">{title}</div>
               <div className="ml-auto">
                 <Link href={`/discussion/${title}`}>
-                    <FiArrowRightCircle size={30} color="black" />
+                    <FiArrowRightCircle size={30} color="grey" />
                 </Link>
               </div>
             </div>
