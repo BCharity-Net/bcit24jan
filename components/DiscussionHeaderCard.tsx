@@ -15,6 +15,8 @@ interface DiscussionCardProps {
 const DiscussionCard: React.FC<DiscussionCardProps> = ({ imageSrc, title, numberOfComments }) => {
   const { t } = useTranslation('common');
 
+  const titleId = `title-${title.replace(/\s+/g, '-')}`; // replace spaces with dashes for ARIA functionality
+
   return (
     <div className="discussion-card max-h-full rounded overflow-hidden shadow-lg">
       <div className="relative">
@@ -26,9 +28,9 @@ const DiscussionCard: React.FC<DiscussionCardProps> = ({ imageSrc, title, number
               {t('comment', { count: numberOfComments })} 
             </span>
             <div className="flex items-center">
-              <div className="text-xl mb-2 text-white max-w-full">{title}</div>
+              <div id={titleId} className="text-xl mb-2 text-white max-w-full">{title}</div>
               <div className="ml-auto">
-                <Link href={`/discussion/${title}`}>
+                <Link href={`/discussion/${title}`} aria-labelledby={titleId}>
                   <FiArrowRightCircle size={30} color="grey" />
                 </Link>
               </div>
