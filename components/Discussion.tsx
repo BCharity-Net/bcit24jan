@@ -1,5 +1,6 @@
 import DiscussionCard from "../components/DiscussionCard";
 import DiscussionHeaderCard from "../components/DiscussionHeaderCard";
+import { useTranslation } from 'next-i18next';
 import '../app/globals.css';
 
 interface DiscussionSectionProps {
@@ -7,10 +8,19 @@ interface DiscussionSectionProps {
 }
 
 export default function DiscussionSection() {
+  const { t } = useTranslation('home');
   return (
     <main className={`relative overflow-hidden mx-10`}>
       <div className="mx-4">
-      <div id="headerDiscussion" className=" max-w-screen-xl mx-auto mb-10 items-center justify-center">
+        <div className="max-w-screen-xl mx-auto mb-10 items-center justify-center">
+          <h2 id="discussionTitle" className="text-4xl font-bold mb-3 text-left">
+            {t('home-page-discussion-title')}
+          </h2>
+          <p id="discussionDescription" className="text-left mb-5">
+            {t('home-page-discussion-subtitle')}
+          </p>
+        </div>
+        <div id="headerDiscussion" className=" max-w-screen-xl mx-auto mb-10 items-center justify-center">
             <DiscussionHeaderCard imageSrc="/cardImages/banner.png" title="Header Discussion" numberOfComments={8} /> 
           </div>
         <div className="grid grid-cols-3 gap-2 justify-items-center max-w-screen-xl mx-auto"> 
