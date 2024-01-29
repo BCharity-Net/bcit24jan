@@ -1,5 +1,9 @@
 import React from "react";
 import "../app/globals.css";
+
+import { GetStaticPropsContext } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+
 import NavigationBar from "../components/NavigationBar";
 import MainSection from "../components/MainSection";
 // import VHRSection from "../components/VHR";
@@ -25,5 +29,13 @@ const HomePage = () => {
     </>
   );
 };
+
+export async function getStaticProps({ locale }: GetStaticPropsContext) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale ?? 'en', ['navbar', 'common', 'home'])),
+    },
+  };
+}
 
 export default HomePage;
