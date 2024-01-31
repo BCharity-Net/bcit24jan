@@ -41,6 +41,12 @@ export default function DiscussionSection() {
             <div className="items-center justify-center mb-10"> 
               <DiscussionCard cat = "Category 1"title="Title 6"desc="Description"/>
             </div>
+            <div className="items-center justify-center mb-10"> 
+              <DiscussionCard cat = "Tool/Library" title="Title 5" desc="Description"/>
+            </div>
+            <div className="items-center justify-center mb-10"> 
+              <DiscussionCard cat = "Tool/Library" title="Title 6"desc="Description"/>
+            </div>
         </div>
       </div>
     </main>

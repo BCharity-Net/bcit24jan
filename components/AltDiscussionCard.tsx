@@ -1,5 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import { useTranslation } from 'next-i18next';
+import { MdOutlineArrowOutward } from "react-icons/md";
 import '../app/globals.css';
 
 interface DiscussionCardProps {
@@ -8,18 +10,27 @@ interface DiscussionCardProps {
   cat: string;
 }
 
-const AltDIscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat }) => {
-  const { t } = useTranslation('common');
-
-  const titleId = `title-${title.replace(/\s+/g, '-')}`;
+const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat }) => {
+  const { t } = useTranslation('home');
 
   return (
-    <div className="discussion-card max-w-sm p-6 pr-75 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-      <h5 className="mb-2 text-xl font-bold tracking-tight text-purple-700">{cat}</h5>
-      <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-700 dark:text-gray-400">{title}</h6>
-      <p className="font-normal text-gray-700 dark:text-gray-400 pb-10">{desc}</p>
+    <div className="discussion-card max-w-md max-h-full rounded overflow-hidden shadow-lg">
+      <div className="relative">
+        <div className="max-w-md p-6 pr-64 bg-white border border-black-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-900 ">
+          <h5 className="mb-2 text-lg font-semibold tracking-tight text-purple-600">{cat}</h5>
+          <h6 className="mb-2 text-xl font-semibold tracking-tight text-white">{title}</h6>
+          <p className="font-normal text-white pb-36">{desc}</p>
+          
+          <div className="font-normal text-white flex items-center">
+            <span className="items-right mr-2 ol-96">{t('home-page-alt-discussion-learnmore')}</span>
+            <Link href={`/discussion/${title}`} aria-labelledby={title}>
+            <MdOutlineArrowOutward />
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default AltDIscussionCard;
+export default AltDiscussionCard;
