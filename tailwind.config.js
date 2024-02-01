@@ -9,4 +9,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    extend: {
+      spacing: {
+        '128': '32rem', // Add custom spacing sizes as needed
+        '144': '36rem',
+      },
+    },
+  },
 }
