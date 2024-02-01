@@ -8,9 +8,11 @@ import NavigationBar from "../components/NavigationBar";
 import MainSection from "../components/MainSection";
 //import VHRSection from "../components/VHR";
 import DiscussionSection from "../components/Discussion";
+import AltDiscussionSection from "../components/AltDiscussion"
 // import MapSection from "../components/Map";
 // import SourceSection from "../components/GoToSource";
 import Footer from "../components/Footer";
+import SourceSection from "../components/GoToSource";
 
 const HomePage = () => {
   return (
@@ -22,6 +24,23 @@ const HomePage = () => {
         <Map />
         <Source />*/
         <Footer /> 
+      {
+        <DiscussionSection />
+      }
+      {
+        <AltDiscussionSection />
+      }
+      {
+        <SourceSection/>
+      }
+      {
+      /*
+      <Map />
+      {/*
+      <Map />
+      <Source />
+      <Footer /> 
+      */
       }
     </>
   );
