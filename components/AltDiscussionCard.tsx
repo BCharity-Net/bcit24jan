@@ -12,7 +12,8 @@ interface DiscussionCardProps {
 
 const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat }) => {
   const { t } = useTranslation('home');
-
+  const titleId = `title-${title.replace(/\s+/g, '-')}`; // replace spaces with dashes for ARIA functionality
+  const titleIdDesc = titleId + "-aria-desc";
   return (
     <div className="discussion-card max-w-md max-h-full rounded overflow-hidden shadow-lg">
       <div className="relative">
@@ -23,7 +24,7 @@ const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat }) 
           
           <div className="font-normal text-white flex items-center">
             <span className="items-right mr-2 ol-96">{t('home-page-alt-discussion-learnmore')}</span>
-            <Link href={`/discussion/${title}`} aria-labelledby={title}>
+            <Link href={`/discussion/${title}`} aria-labelledby={titleId} aria-describedby={titleIdDesc}>
             <MdOutlineArrowOutward />
             </Link>
           </div>
