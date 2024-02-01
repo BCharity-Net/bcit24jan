@@ -1,12 +1,15 @@
 import '../app/globals.css';
+import { FaDiscord } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 export default function GoToResourceSection() {
     return (
         <main className="relative overflow-hidden"> 
             {/* BackGround color */}
-            <div className='max-w-screen-xl mx-auto mb-10 items-center justify-center
+            <div className='max-w-screen mx-auto mb-10 items-center justify-center
                             bg-gradient-to-b from-gray-600 to-black p-8'> 
-                <div className='mx-4'>
+                <div className='max-w-screen-xl mx-auto'>
                     <h1 className='text-4xl text-left'>Go To The Sources</h1>
                     <p className='text-left mb-11'>Read the documentation for BCharity and popular tools</p>
 
@@ -37,23 +40,29 @@ export default function GoToResourceSection() {
                             <div className='flex justify-center'>
                             <div className="relative">
                                 <input
-                                    className="rounded-full bg-black text-white placeholder-white placeholder-opacity-50 w-48 h-12 pl-4 pr-8"
+                                    className="rounded-full bg-black text-white placeholder-white placeholder-opacity-50 w-64 h-14 pl-4 pr-8"
                                     type="text"
                                     placeholder="Email"
                                 />
 
                                 <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-green-500 text-black px-4 py-2 rounded-full border-2 border-black hover:bg-white hover:text-black">
-                                    SIGN UP
+                                    <b>SIGN UP</b>
                                 </button>
                             </div>
                         </div>
                         </div>
                         <div className='mt-8 bg-gray-600 rounded-xl p-5'>
-                            <span className='text-4xl'><h1>Even More Resources</h1></span>
-                            <span><p>More videos, more episodes. Discussions between industry leaders in both blockchain and technology, our teamm and community developers.</p></span>
+                            <div className='text-4xl mb-4'><h1>Even More Resources</h1></div>
+                            <div className='mb-8'><p>More videos, more episodes. Discussions between industry leaders in both blockchain and technology, our teamm and community developers.</p></div>
                             <div className='flex justify-center'>
-                            <button className="mr-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-red-400 hover:text-white hover:border-white">YOUTUBE</button>
-                            <button className="ml-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-violet-500 hover:text-white hover:border-black">DISCORD</button>
+                            <button className="flex items-center mr-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-red-600 hover:text-white hover:border-white">
+                                YOUTUBE 
+                                <FaYoutube className='ml-2'/>
+                            </button>
+                            <button className="flex items-center ml-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-violet-500 hover:text-white hover:border-black">
+                                DISCORD 
+                                <FaDiscord className='ml-2'/>
+                            </button>
                             </div>
                         </div>
                     </div>
