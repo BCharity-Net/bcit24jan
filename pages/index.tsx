@@ -20,28 +20,9 @@ const HomePage = () => {
       <NavigationBar />
       <MainSection />
       <DiscussionSection />
-      {/*
-        <Map />
-        <Source />*/
-        <Footer /> 
-      {
-        <DiscussionSection />
-      }
-      {
-        <AltDiscussionSection />
-      }
-      {
-        <SourceSection/>
-      }
-      {
-      /*
-      <Map />
-      {/*
-      <Map />
-      <Source />
+      <AltDiscussionSection/>
+      <SourceSection/>
       <Footer /> 
-      */
-      }
     </>
   );
 };
