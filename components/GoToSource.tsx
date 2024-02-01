@@ -8,7 +8,7 @@ export default function GoToResourceSection() {
         <main className="relative overflow-hidden"> 
             {/* BackGround color */}
             <div className='max-w-screen mx-auto mb-10 items-center justify-center
-                            bg-gradient-to-b from-gray-600 to-black p-8'> 
+                            bg-gradient-to-b from-gray-800 to-black via-gray-900 pt-8'> 
                 <div className='max-w-screen-xl mx-auto'>
                     <h1 className='text-4xl text-left'>Go To The Sources</h1>
                     <p className='text-left mb-11'>Read the documentation for BCharity and popular tools</p>
@@ -34,7 +34,7 @@ export default function GoToResourceSection() {
                     </div>
 
                     <div className='grid grid-cols-2 gap-4'>
-                        <div className='mt-8 bg-gray-600 rounded-xl p-5'>
+                        <div className='mt-8 bg-gray-800 rounded-xl p-5'>
                             <div className='text-4xl mb-4'><h1>BCharity News</h1></div>
                             <div className='mb-8'><p>Sign up for newsletter and learn about new resources. new commits, new proposals, and more</p></div>
                             <div className='flex justify-center'>
@@ -51,18 +51,18 @@ export default function GoToResourceSection() {
                             </div>
                         </div>
                         </div>
-                        <div className='mt-8 bg-gray-600 rounded-xl p-5'>
+                        <div className='mt-8 bg-gray-800 rounded-xl p-5'>
                             <div className='text-4xl mb-4'><h1>Even More Resources</h1></div>
                             <div className='mb-8'><p>More videos, more episodes. Discussions between industry leaders in both blockchain and technology, our teamm and community developers.</p></div>
                             <div className='flex justify-center'>
-                            <button className="flex items-center mr-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-red-600 hover:text-white hover:border-white">
+                            <a href="http://www.youtube.com/@bcharity514" className="flex items-center mr-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-red-600 hover:text-white hover:border-white">
                                 YOUTUBE 
                                 <FaYoutube className='ml-2'/>
-                            </button>
-                            <button className="flex items-center ml-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-violet-500 hover:text-white hover:border-black">
+                            </a>
+                            <a href="https://discord.gg/NyHQuR8m" className="flex items-center ml-2 bg-inherit text-white px-4 py-2 rounded-full border-2 border-white hover:bg-violet-500 hover:text-white hover:border-black">
                                 DISCORD 
                                 <FaDiscord className='ml-2'/>
-                            </button>
+                            </a>
                             </div>
                         </div>
                     </div>
