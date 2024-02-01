@@ -11,6 +11,7 @@ import DiscussionSection from "../components/Discussion";
 import AltDiscussionSection from "../components/AltDiscussion"
 // import MapSection from "../components/Map";
 import SourceSection from "../components/GoToSource";
+
 // import Footer from "../components/Footer";
 
 const HomePage = () => {
@@ -28,9 +29,11 @@ const HomePage = () => {
         <SourceSection/>
       }
       {
-      
       /*
       <Map />
+      {/*
+      <Map />
+      <Source />
       <Footer /> 
       */
       }
