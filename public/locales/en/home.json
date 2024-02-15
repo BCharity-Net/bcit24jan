@@ -1,8 +1,14 @@
 {
   "home-page-title": "An Open Ledger For Public Good",
-  "home-page-subtitle": "Empowering Your Generosity with Transparency.",
-  "home-page-discussion-title": "Your Impact, Verified and Visible",
-  "home-page-discussion-subtitle": "Every act of kindness leaves a lasting trace—see the change you ignite in real-time.",
-  "home-page-alt-discussion-title": "Discover the Good Chain: Learn How Your Contributions Create Change",
-  "home-page-alt-discussion-learnmore": "Learn More"
+  "home-page-subtitle": "Next generation group-driven composable, decentralized, and permissionless public good sector Web3 built on blockchains.",
+  "home-page-discussion-title": "Exploring BCharity's Initiatives",
+  "home-page-discussion-subtitle": "Discover the Latest Updates, Donate, and Join the Discussion",
+  "home-page-alt-discussion-title": "Bcharity's Pitch Deck",
+  "home-page-alt-discussion-subtitle": "Discover Bcharity's vision, impact, and growth trajectory",
+  "home-page-alt-discussion-learnmore": "Learn More",
+  "home-page-discussion-minute-read": "minute read",
+  "cat-Informative": "Informative",
+  "cat-Crypto": "Cryptocurrency",
+  "cat-Goals": "Goals",
+  "cat-Planning": "Planning"
 }
