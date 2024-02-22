@@ -12,7 +12,7 @@ export default function GoToResourceSection() {
                 <div className='max-w-screen-xl mx-auto'>
                     <h1 className='text-4xl text-left'>Go To The Sources</h1>
                     <p className='text-left mb-11'>Read the documentation for BCharity and popular tools</p>
-
+                    
                     <div className='grid grid-cols-2 gap-32'>
                         <div>
                             <div className='flex justify-between'>
@@ -38,18 +38,18 @@ export default function GoToResourceSection() {
                             <div className='text-4xl mb-4'><h1>BCharity News</h1></div>
                             <div className='mb-8'><p>Sign up for newsletter and learn about new resources. new commits, new proposals, and more</p></div>
                             <div className='flex justify-center'>
-                            <div className="relative">
-                                <input
-                                    className="rounded-full bg-black text-white placeholder-white placeholder-opacity-50 w-64 h-14 pl-4 pr-8"
-                                    type="text"
-                                    placeholder="Email"
-                                />
+                                <div className="relative">
+                                    <input
+                                        className="rounded-full bg-black text-white placeholder-white placeholder-opacity-50 w-64 h-14 pl-4 pr-8"
+                                        type="text"
+                                        placeholder="Email"
+                                    />
 
-                                <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-green-500 text-black px-4 py-2 rounded-full border-2 border-black hover:bg-white hover:text-black">
-                                    <b>SIGN UP</b>
-                                </button>
+                                    <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-green-500 text-black px-4 py-2 rounded-full border-2 border-black hover:bg-white hover:text-black">
+                                        <b>SIGN UP</b>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
                         </div>
                         <div className='mt-8 bg-gray-800 rounded-xl p-5'>
                             <div className='text-4xl mb-4'><h1>Even More Resources</h1></div>
@@ -71,29 +71,3 @@ export default function GoToResourceSection() {
         </main>
     );
 }
-/**
- * "Go to source lable"h1
- * "Read the documentation for BCharity and popular tools"p
- * 
- * 2 cards, each with:
- * "BCharity PPT"h1     "View all" button
- * "Setparator"
- * "Learn how BCharity works and get a high-level 
- *  understanding of BCharity's architecture" p
- * 
- * 2 cards:
- * Card left:
- * "BCharity news" h1
- * "Sign up for newsletter and learn about new
- *  resources. new commits, new proposals, and more" p
- * Text area with a button 
- * 
- * Card Right:
- * "Even more resources" h1
- * "More videos, more episodes. Discussions 
- *  between industry leaders in both blockchain and 
- *  technology, our teamm and community developers." p
- * 
- * button<youtube logo>             button<discord logo>
- *
- */

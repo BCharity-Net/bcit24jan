@@ -13,6 +13,7 @@ import AltDiscussionSection from "../components/AltDiscussion"
 // import SourceSection from "../components/GoToSource";
 import Footer from "../components/Footer";
 import SourceSection from "../components/GoToSource";
+import LogoBanner from "../components/LogoBanner";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <DiscussionSection />
       <AltDiscussionSection/>
       <SourceSection/>
+      <LogoBanner/>
       <Footer /> 
     </>
   );
