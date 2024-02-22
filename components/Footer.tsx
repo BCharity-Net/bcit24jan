@@ -29,12 +29,12 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="lg:flex lg:gap-12">
-          {/* SOLANA column */}
+          {/* BCharity column */}
           <div className="mb-4 lg:mb-0">
-            <h6 className="font-bold mb-1">{t('SOLANA')}</h6>
+            <h6 className="font-bold mb-1">{t('BCharity')}</h6>
             <ul>
                 <li><a href="#" className="text-gray-500 hover:text-white">{t('VHRs')}</a></li>
-                <li><a href="#" className="text-gray-500 hover:text-white">{t('Break Solana')}</a></li>
+                <li><a href="#" className="text-gray-500 hover:text-white">{t('Break BCharity')}</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white">{t('Groups')}</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white">{t('Careers')}</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white">{t('Disclaimer')}</a></li>
