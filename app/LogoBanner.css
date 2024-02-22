@@ -21,7 +21,7 @@
     overflow: hidden;
     position: relative;
     padding: 60px 0;
-    background: black;
+    background: white;
     white-space: nowrap;
   }
   
@@ -51,7 +51,7 @@
   
   .logos-slide {
     display: inline-flex;
-    animation: 10s slide infinite linear;
+    animation: 5s slide infinite linear;
   }
   
   .logos-slide img {
