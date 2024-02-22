@@ -104,29 +104,3 @@ export default function GoToResourceSection() {
     </main>
   );
 }
-/**
- * "Go to source lable"h1
- * "Read the documentation for BCharity and popular tools"p
- *
- * 2 cards, each with:
- * "BCharity PPT"h1     "View all" button
- * "Setparator"
- * "Learn how BCharity works and get a high-level
- *  understanding of BCharity's architecture" p
- *
- * 2 cards:
- * Card left:
- * "BCharity news" h1
- * "Sign up for newsletter and learn about new
- *  resources. new commits, new proposals, and more" p
- * Text area with a button
- *
- * Card Right:
- * "Even more resources" h1
- * "More videos, more episodes. Discussions
- *  between industry leaders in both blockchain and
- *  technology, our teamm and community developers." p
- *
- * button<youtube logo>             button<discord logo>
- *
- */

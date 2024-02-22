@@ -13,6 +13,7 @@ import MapSection from "../components/Map";
 // import SourceSection from "../components/GoToSource";
 import Footer from "../components/Footer";
 import SourceSection from "../components/GoToSource";
+import LogoBanner from "../components/LogoBanner";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <AltDiscussionSection />
       <MapSection />
       <SourceSection />
+      <LogoBanner/>
       <Footer />
     </>
   );
