@@ -1,0 +1,10 @@
+{
+    "bcharity": "BCharity",
+    "discussions": "Discussions",
+    "account-login": "Login",
+    "account-logout": "Logout",
+    "account-signup": "Signup",
+    "comment_one": "{{count}} Comment",
+    "comment_other": "{{count}} Comments",
+    "readMore": "Read More"
+}
