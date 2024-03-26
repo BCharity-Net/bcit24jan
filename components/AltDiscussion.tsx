@@ -82,7 +82,7 @@ export default function DiscussionSection() {
               <DiscussionCard 
                cat ={t('cat-Planning')} 
                title={t('title-Roadmap')}
-              link="Roadmap.pdf"
+              link="/PPT_Images/Roadmap.pdf"
               desc= {t('desc-Roadmap')}
               />
             </div>
