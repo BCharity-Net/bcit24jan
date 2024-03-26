@@ -14,6 +14,11 @@ interface DiscussionCardProps {
 const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat, link }) => {
   const { t } = useTranslation('home');
 
+  // Function to open PDF in a child window
+  const openPDFInChildWindow = (pdfLink: string) => {
+    window.open(pdfLink, "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=100,left=100,width=800,height=600");
+  };
+
   return (
     <div className="discussion-card max-w-md max-h-full rounded overflow-hidden shadow-lg dark">
       <div className="relative">
@@ -25,9 +30,9 @@ const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat, li
           <div className="font-normal text-white flex items-center">
             <span className="mr-2">{t('home-page-alt-discussion-learnmore')}</span>
             {link && ( 
-              <Link href={link} aria-labelledby={title}>
+              <button onClick={() => openPDFInChildWindow(link)} aria-labelledby={title}>
                 <MdOutlineArrowOutward />
-              </Link>
+              </button>
             )}
           </div>
         </div>
