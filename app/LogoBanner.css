@@ -41,10 +41,12 @@
 
 .logos-slide {
     display: inline-flex;
-    animation: 10s slide linear infinite; /* Changed */
+    animation: 5s slide linear infinite;
 }
 
 .logos-slide img {
     height: 150px;
     margin: 0 70px;
-}
+} 
+
+

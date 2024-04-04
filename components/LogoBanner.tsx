@@ -18,8 +18,8 @@ export default function LogoBanner() {
                         </div>
 
                         <div className='logos-slide'>
-                            <img src="/Ecssen_logo.png" alt="" />
                             <img src="/canada_gov.png" alt="" /> 
+                            <img src="/Ecssen_logo.png" alt="" />
                             <img src="/SignalHire_logo_logo.png " alt="" />
                             <img src="/UBC_logo.png" alt="" />
                             <img src="/BCIT_logo.png" alt="" />
@@ -28,6 +28,6 @@ export default function LogoBanner() {
                     </div>
         //         </div>    
         //     </div>
-        // </main>                
+        // </main>
     );
 }
