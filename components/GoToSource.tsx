@@ -46,7 +46,7 @@ export default function GoToResourceSection() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-28">
             <div className="mt-8 bg-gray-800 rounded-xl p-5">
               <div className="text-4xl mb-4">
                 <h1>BCharity News</h1>
