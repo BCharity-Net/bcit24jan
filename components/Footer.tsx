@@ -1,10 +1,20 @@
 import React from 'react';
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faTwitter, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { useRouter } from 'next/router'
 
 const Footer: React.FC = () => {
-  const { t } = useTranslation();
+  const router = useRouter();
+  const t = useTranslations('footer');
+
+  const onToggleLanguageClick = (newLocale: string) => {
+    const { pathname, asPath, query } = router
+    router.push({ pathname, query }, asPath, { locale: newLocale })
+  }
+
+  
+
 
   return (
     <footer className="bg-black text-white p-5 pb-20">
@@ -56,7 +66,8 @@ const Footer: React.FC = () => {
           <div className="mb-2">
             {/* Language selector can be a custom component or a simple select element */}
             <select className="bg-transparent text-white">
-              <option value="en">{t('EN')}</option>
+              <option value="en" onClick={() => onToggleLanguageClick('en')}>{t('EN')}</option>
+              <option value="zh" onClick={() => onToggleLanguageClick('zh')}>{t('ZH')}</option>
               {/* Add more language options here */}
             </select>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import { MdOutlineArrowOutward } from "react-icons/md";
 import '../app/globals.css';
 
@@ -12,7 +12,7 @@ interface DiscussionCardProps {
 }
 
 const AltDiscussionCard: React.FC<DiscussionCardProps> = ({ title, desc, cat, link }) => {
-  const { t } = useTranslation('home');
+  const t = useTranslations('home');
 
   // Function to open PDF in a child window
   const openPDFInChildWindow = (pdfLink: string) => {

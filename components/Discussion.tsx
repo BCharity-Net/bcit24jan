@@ -1,6 +1,6 @@
 import DiscussionCard from "../components/DiscussionCard";
 import DiscussionHeaderCard from "../components/DiscussionHeaderCard";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import '../app/globals.css';
 
 interface DiscussionSectionProps {
@@ -8,7 +8,7 @@ interface DiscussionSectionProps {
 }
 
 export default function DiscussionSection() {
-  const { t } = useTranslation('home');
+  const t = useTranslations('home');
   return (
     <main className={`relative overflow-hidden mx-10`}>
       <div className="mx-4">

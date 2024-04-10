@@ -2,7 +2,6 @@ import React from "react";
 import "../app/globals.css";
 
 import { GetStaticPropsContext } from "next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import NavigationBar from "../components/NavigationBar";
 import MainSection from "../components/MainSection";
@@ -30,14 +29,10 @@ const HomePage = () => {
   );
 };
 
-export async function getStaticProps({ locale }: GetStaticPropsContext) {
+export async function getStaticProps(context: { locale: any; }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? "en", [
-        "navbar",
-        "common",
-        "home",
-      ])),
+      messages: (await import(`../messages/${context.locale}.json`)).default
     },
   };
 }

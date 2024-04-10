@@ -1,0 +1,77 @@
+{
+    "common": {
+        "bcharity": "BCharity",
+        "discussions": "Discussions",
+        "account-login": "Login",
+        "account-logout": "Logout",
+        "account-signup": "Signup",
+        "comment_one": "{{count}} Comment",
+        "comment_other": "{{count}} Comments",
+        "minute_read_one": "{{count}} minute read",
+        "minute_read_other": "{{count}} minute read",
+        "readMore": "Read More"
+    },
+    "home": {
+        "discussions": "Discussions",
+        "account-login": "Login",
+        "home-page-title": "An Open Ledger For Public Good",
+        "home-page-subtitle": "Next generation group-driven composable, decentralized, and permissionless public good sector Web3 built on blockchains.",
+        "home-page-discussion-title": "Exploring BCharity's Initiatives",
+        "home-page-discussion-subtitle": "Discover the Latest Updates, Donate, and Join the Discussion",
+        "home-page-alt-discussion-title": "Bcharity's Pitch Deck",
+        "home-page-alt-discussion-subtitle": "Discover Bcharity's vision, impact, and growth trajectory. View our full pitch deck here.",
+        "home-page-alt-discussion-learnmore": "Learn More",
+        "home-page-discussion-minute-read": "minute read",
+
+        "cat-Informative": "Informative",
+        "cat-Crypto": "Cryptocurrency",
+        "cat-Goals": "Goals",
+        "cat-Planning": "Planning",
+
+        "title-Problem": "The Problem",
+        "desc-Problem": "Distrust with charity. 1/3 Americans do not trust charities. Only 48% of canadians express trust in nonprofits and charities.Leading to $100 billion shortage of impact in North America annually",
+
+        "title-Solution": "Our Solution",
+        "desc-Solution": "BCharity will solve this with One Open Ledger with Three Tokens. Giving user's full transparency with where there donations went and what impact they had.",
+
+        "title-Competition": "Competition/Alternatives",
+        "desc-Competition": "While platforms such as GoFundMe, Connector, and GivingBlock focus solely on fundraising or volunteering, BCharity distinguishes itself by offering a comprehensive suite of services including fundraising, ledgering, tracking,  and volunteering.",
+
+        "title-VHRTokens": "VHR Tokens",
+        "desc-VHRTokens": "Explore the VHR token, a digital asset incentivizing volunteerism with two soulbound tokens: RPT for accumulated goodwill and VHR for actual volunteer hours.  Utilizing a utility token for transparency and sustainability, VHR revolutionizes community engagement through blockchain technology.",
+
+        "title-Goals": "Short/Long Term Strategy",
+        "desc-Goals": "BCharity plans to issue 21 million VHR tokens in 3 years and aims to sell 21 Billion VHR tokens in the next 10 years.",
+
+        "title-Roadmap": "Our Roadmap",
+        "desc-Roadmap": "Click 'Learn More' to explore our roadmap, detailing key milestones and initiatives for 2020 - 2024 and beyond"
+    },
+    "navbar": {
+        "bcharity": "BCharity",
+        "nav-login": "Login",
+        "nav-register": "Register",
+        "nav-logout": "Logout",
+        "nav-home": "Home",
+        "nav-vhrs": "VHRs",
+        "nav-groups": "Groups",
+        "nav-admin": "Admin",
+        "nav-explore": "Explore",
+        "nav-fundraisers": "Fundraisers",
+        "nav-more": "More ▼"
+    },
+    "footer": {
+        "managedBy": "Managed by BCharity",
+        "BCharity": "BCharity",
+        "VHRs": "VHRs",
+        "Break BCharity": "Break BCharity",
+        "Groups": "Groups",
+        "Careers": "Careers",
+        "Disclaimer": "Disclaimer",
+        "GET CONNECTED": "GET CONNECTED",
+        "Discord": "Discord",
+        "Blog": "Blog",
+        "Newsletter": "Newsletter",
+        "EN": "EN",
+        "ZH": "中文"
+    }
+}
