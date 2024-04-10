@@ -41,7 +41,7 @@
 
 .logos-slide {
     display: inline-flex;
-    animation: 5s slide linear infinite;
+    animation: 15s slide linear infinite;
 }
 
 .logos-slide img {
