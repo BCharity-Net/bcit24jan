@@ -1,0 +1,77 @@
+{
+    "common": {
+        "bcharity": "BCharity",
+        "discussions": "讨论",
+        "account-login": "登录",
+        "account-logout": "登出",
+        "account-signup": "注册",
+        "comment_one": "{{count}} 条评论",
+        "comment_other": "{{count}} 条评论",
+        "minute_read_one": "{{count}}分钟阅读",
+        "minute_read_other": "{{count}}分钟阅读",
+        "readMore": "阅读更多"
+    },
+    "home": {
+        "discussions": "讨论",
+        "account-login": "登录",
+        "home-page-title": "公益开放账本",
+        "home-page-subtitle": "基于区块链的下一代群体驱动的可组合、去中心化、无需许可的公共利益部门Web3。",
+        "home-page-discussion-title": "探索BCharity的倡议",
+        "home-page-discussion-subtitle": "发现最新更新，捐赠并加入讨论",
+        "home-page-alt-discussion-title": "Bcharity的推介材料",
+        "home-page-alt-discussion-subtitle": "发现Bcharity的愿景、影响和增长轨迹。在这里查看我们完整的推介材料。",
+        "home-page-alt-discussion-learnmore": "了解更多",
+        "home-page-discussion-minute-read": "分钟阅读",
+
+        "cat-Informative": "资讯",
+        "cat-Crypto": "加密货币",
+        "cat-Goals": "目标",
+        "cat-Planning": "规划",
+
+        "title-Problem": "问题",
+        "desc-Problem": "对慈善机构的不信任。1/3的美国人不信任慈善机构。只有48%的加拿大人对非营利组织和慈善机构表示信任。这导致北美每年影响力缺口达1000亿美元",
+
+        "title-Solution": "我们的解决方案",
+        "desc-Solution": "BCharity将通过一个开放账本和三种代币解决这个问题。让用户完全透明地了解他们的捐款去向和产生的影响。",
+
+        "title-Competition": "竞争/替代品",
+        "desc-Competition": "虽然GoFundMe、Connector和GivingBlock等平台只专注于筹款或志愿服务，但BCharity通过提供包括筹款、记录、跟踪和志愿服务在内的综合服务套件来区别自己。",
+
+        "title-VHRTokens": "VHR代币",
+        "desc-VHRTokens": "探索VHR代币，一种激励志愿服务的数字资产，拥有两个绑定灵魂的代币：RPT代表积累的善意，VHR代表实际的志愿服务小时。利用一种实用代币来提高透明度和可持续性，VHR通过区块链技术革新了社区参与。",
+
+        "title-Goals": "短期/长期战略",
+        "desc-Goals": "BCharity计划在3年内发行2100万VHR代币，并旨在未来10年内销售210亿VHR代币。",
+
+        "title-Roadmap": "我们的路线图",
+        "desc-Roadmap": "点击“了解更多”探索我们的路线图，详细说明2020 - 2024年及以后的关键里程碑和倡议"
+    },
+    "navbar": {
+        "bcharity": "BCharity",
+        "nav-login": "登录",
+        "nav-register": "注册",
+        "nav-logout": "登出",
+        "nav-home": "首页",
+        "nav-vhrs": "VHRs",
+        "nav-groups": "团体",
+        "nav-admin": "管理员",
+        "nav-explore": "探索",
+        "nav-fundraisers": "筹款活动",
+        "nav-more": "更多 ▼"
+    },
+    "footer": {
+        "managedBy": "由BCharity管理",
+        "BCharity": "BCharity",
+        "VHRs": "VHRs",
+        "Break BCharity": "打破BCharity",
+        "Groups": "团体",
+        "Careers": "招聘",
+        "Disclaimer": "免责声明",
+        "GET CONNECTED": "建立联系",
+        "Discord": "Discord",
+        "Blog": "博客",
+        "Newsletter": "新闻简报",
+        "EN": "EN",
+        "ZH": "中文"
+    }
+}

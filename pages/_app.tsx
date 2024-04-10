@@ -1,9 +1,18 @@
 // pages/_app.tsx
-import { AppProps } from 'next/app';
-import { appWithTranslation } from 'next-i18next';
+import { AppProps } from "next/app";
+import { NextIntlClientProvider } from "next-intl";
+import { useRouter } from "next/router";
 
 const App = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+    const router = useRouter();
+    return (
+      <NextIntlClientProvider
+        locale={router.locale}
+        messages={pageProps.messages}
+      >
+        <Component {...pageProps} />
+      </NextIntlClientProvider>
+    );
 };
 
-export default appWithTranslation(App);
+export default App;

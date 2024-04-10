@@ -1,7 +1,7 @@
 import DiscussionCard from "../components/AltDiscussionCard";
 import DiscussionHeaderCard from "../components/DiscussionHeaderCard";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import '../app/globals.css';
 
 
@@ -10,7 +10,7 @@ interface DiscussionSectionProps {
 }
 
 export default function DiscussionSection() {
-  const { t } = useTranslation('home');
+  const t = useTranslations('home');
 
     // Function to open PDF in a child window
     const openPDFInChildWindow = (pdfLink: string) => {

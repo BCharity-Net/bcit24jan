@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRightCircle } from "react-icons/fi";
-import { useTranslation } from 'next-i18next';
+import { useTranslations } from 'next-intl';
 import '../app/globals.css';
 
 interface DiscussionCardProps {
@@ -13,7 +13,7 @@ interface DiscussionCardProps {
 }
 
 const DiscussionCard: React.FC<DiscussionCardProps> = ({ imageSrc, title, mins, link }) => {
-  const { t } = useTranslation('home');
+  const t = useTranslations('home');
 
   const titleId = `title-${title.replace(/\s+/g, '-')}`; 
 
