@@ -1,0 +1,35 @@
+.marker {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .info-bubble {
+    min-width: 100px; 
+    padding: 18px 25px; /* Increase the padding to create more space around the text */
+    text-align: center; /* Center the text horizontally */
+    bottom: 30px; 
+    left: 50%;
+    transform: translate(-50%, -10px); /* This helps to center the bubble */
+    background: white;
+    border-radius: 8px; /* adds rounded corners to the bubble */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* adds a subtle shadow for better visibility */
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    line-height: 1.4; /* Adjust line height for better readability */
+    display: flex;
+    justify-content: center; /* This will help center any child elements */
+    align-items: center;
+  }
+  
+  
+  .info-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white; 
+  }
+  
+  
