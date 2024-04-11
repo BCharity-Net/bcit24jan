@@ -67,6 +67,7 @@ const Footer: React.FC = () => {
             {/* Language selector can be a custom component or a simple select element */}
             <select className="bg-transparent text-white">
               <option value="en" onClick={() => onToggleLanguageClick('en')}>{t('EN')}</option>
+              <option value="fr" onClick={() => onToggleLanguageClick('fr')}>{t('FR')}</option>
               <option value="zh" onClick={() => onToggleLanguageClick('zh')}>{t('ZH')}</option>
               {/* Add more language options here */}
             </select>

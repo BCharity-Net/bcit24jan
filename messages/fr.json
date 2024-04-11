@@ -1,0 +1,78 @@
+{
+    "common": {
+        "bcharity": "BCharity",
+        "discussions": "Discussions",
+        "account-login": "Connexion",
+        "account-logout": "Déconnexion",
+        "account-signup": "Inscription",
+        "comment_one": "{{count}} Commentaire",
+        "comment_other": "{{count}} Commentaires",
+        "minute_read_one": "Lecture d'une minute",
+        "minute_read_other": "Lecture de {{count}} minutes",
+        "readMore": "Lire Plus"
+    },
+    "home": {
+        "discussions": "Discussions",
+        "account-login": "Connexion",
+        "home-page-title": "Un Ledger Ouvert Pour le Bien Public",
+        "home-page-subtitle": "La prochaine génération de secteur de bien public composable, décentralisé et sans permission Web3 construit sur les blockchains.",
+        "home-page-discussion-title": "Explorer les Initiatives de BCharity",
+        "home-page-discussion-subtitle": "Découvrez les Dernières Mises à Jour, Faites un Don et Rejoignez la Discussion",
+        "home-page-alt-discussion-title": "Pitch Deck de Bcharity",
+        "home-page-alt-discussion-subtitle": "Découvrez la vision, l'impact et la trajectoire de croissance de Bcharity. Consultez notre pitch deck complet ici.",
+        "home-page-alt-discussion-learnmore": "Apprendre Plus",
+        "home-page-discussion-minute-read": "lecture minute",
+
+        "cat-Informative": "Informatif",
+        "cat-Crypto": "Cryptomonnaie",
+        "cat-Goals": "Objectifs",
+        "cat-Planning": "Planification",
+
+        "title-Problem": "Le Problème",
+        "desc-Problem": "Méfiance envers les œuvres de charité. 1/3 des Américains ne font pas confiance aux œuvres de charité. Seulement 48% des Canadiens expriment leur confiance dans les organismes sans but lucratif et les œuvres de charité. Ce qui entraîne un manque à gagner de 100 milliards de dollars d'impact en Amérique du Nord annuellement",
+
+        "title-Solution": "Notre Solution",
+        "desc-Solution": "BCharity résoudra cela avec Un Ledger Ouvert avec Trois Jetons. Offrant une transparence totale aux utilisateurs sur la destination de leurs dons et l'impact qu'ils ont eu.",
+
+        "title-Competition": "Concurrence/Alternatives",
+        "desc-Competition": "Alors que des plateformes telles que GoFundMe, Connector et GivingBlock se concentrent uniquement sur la collecte de fonds ou le bénévolat, BCharity se distingue en offrant une suite complète de services incluant la collecte de fonds, la comptabilité, le suivi et le bénévolat.",
+
+        "title-VHRTokens": "Jetons VHR",
+        "desc-VHRTokens": "Explorez le jeton VHR, un actif numérique incitant au bénévolat avec deux jetons liés à l'âme : RPT pour la bonne volonté accumulée et VHR pour les heures de bénévolat réelles. Utilisant un jeton utilitaire pour la transparence et la durabilité, VHR révolutionne l'engagement communautaire à travers la technologie blockchain.",
+
+        "title-Goals": "Stratégie à Court/Long Terme",
+        "desc-Goals": "BCharity prévoit d'émettre 21 millions de jetons VHR en 3 ans et vise à vendre 21 milliards de jetons VHR au cours des 10 prochaines années.",
+
+        "title-Roadmap": "Notre Feuille de Route",
+        "desc-Roadmap": "Cliquez sur 'Apprendre Plus' pour explorer notre feuille de route, détaillant les étapes clés et les initiatives pour 2020 - 2024 et au-delà"
+    },
+    "navbar": {
+        "bcharity": "BCharity",
+        "nav-login": "Connexion",
+        "nav-register": "Inscription",
+        "nav-logout": "Déconnexion",
+        "nav-home": "Accueil",
+        "nav-vhrs": "VHRs",
+        "nav-groups": "Groupes",
+        "nav-admin": "Admin",
+        "nav-explore": "Explorer",
+        "nav-fundraisers": "Collectes de fonds",
+        "nav-more": "Plus ▼"
+    },
+    "footer": {
+        "managedBy": "Géré par BCharity",
+        "BCharity": "BCharity",
+        "VHRs": "VHRs",
+        "Break BCharity": "Brisez BCharity",
+        "Groups": "Groupes",
+        "Careers": "Carrières",
+        "Disclaimer": "Avertissement",
+        "GET CONNECTED": "CONNECTEZ-VOUS",
+        "Discord": "Discord",
+        "Blog": "Blog",
+        "Newsletter": "Bulletin d’Information",
+        "EN": "EN",
+        "ZH": "中文",
+        "FR": "FR"
+    }
+}
