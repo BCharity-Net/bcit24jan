@@ -6,7 +6,7 @@ const Map: React.FC = () => {
   const [activeMarker, setActiveMarker] = useState<string | null>(null);
 
   const markers = [
-    { id: 'bc', name: 'British Columbia', coordinates: { x: '14%', y: '31.5%' } },
+    { id: 'bc', name: 'Vancouver', coordinates: { x: '14%', y: '31.5%' } },
     // ... Add more markers as needed
   ];
 
